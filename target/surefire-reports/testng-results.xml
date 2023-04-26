@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-26T12:38:03 IST" name="NopcommerceSuite" finished-at="2023-04-26T12:38:29 IST" duration-ms="26134">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistrationPage.account_registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@563f38c4]" name="account_registration" class="testCases.TC_001_AccountRegistrationPage"/>
+        <method signature="TC_002_LoginPage.loginpage()[pri:0, instance:testCases.TC_002_LoginPage@1ca3b418]" name="loginpage" class="testCases.TC_002_LoginPage"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_LoginPage.loginpage()[pri:0, instance:testCases.TC_002_LoginPage@1ca3b418]" name="loginpage" class="testCases.TC_002_LoginPage"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistrationPage.account_registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@563f38c4]" name="account_registration" class="testCases.TC_001_AccountRegistrationPage"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-04-26T12:38:03 IST" name="NopcommerceTest" finished-at="2023-04-26T12:38:29 IST" duration-ms="26134">
+      <class name="testCases.TC_002_LoginPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginPage@1ca3b418]" started-at="2023-04-26T12:38:19 IST" name="setup" finished-at="2023-04-26T12:38:25 IST" duration-ms="6444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginpage()[pri:0, instance:testCases.TC_002_LoginPage@1ca3b418]" started-at="2023-04-26T12:38:25 IST" name="loginpage" finished-at="2023-04-26T12:38:29 IST" duration-ms="3430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginPage@1ca3b418]" started-at="2023-04-26T12:38:29 IST" name="teardown" finished-at="2023-04-26T12:38:29 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_002_LoginPage -->
+      <class name="testCases.TC_001_AccountRegistrationPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationPage@563f38c4]" started-at="2023-04-26T12:38:03 IST" name="setup" finished-at="2023-04-26T12:38:14 IST" duration-ms="10597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="account_registration()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@563f38c4]" started-at="2023-04-26T12:38:14 IST" name="account_registration" finished-at="2023-04-26T12:38:18 IST" duration-ms="4386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account_registration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationPage@563f38c4]" started-at="2023-04-26T12:38:18 IST" name="teardown" finished-at="2023-04-26T12:38:19 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationPage -->
+    </test> <!-- NopcommerceTest -->
+  </suite> <!-- NopcommerceSuite -->
+</testng-results>
